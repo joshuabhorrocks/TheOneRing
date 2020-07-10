@@ -1,9 +1,16 @@
+@import url(https://www.1001fonts.com/ringbearer-font.html);
+
 .App {
-  margin-top: 16vh;
-  min-height: 100vh;
+  margin-top: 12.5vh;
+  min-height: 150vh;
   text-align: center;
+  line-height: 5vh;
   background-color: black;
+  -webkit-text-stroke: 0.25px black;
+  /* border: 1px solid white; */
 }
+
+/* NAVIGATION BAR */
 
 .nav-header {
   color: white;
@@ -11,15 +18,27 @@
   position: fixed;
   top: 0;
   width: 100%;
-  height: 16vh;
+  height: 13vh;
   display: flex;
   flex-flow: row nowrap;
+  /* border: 1px solid white; */
 }
 
 .nav-logo {
   display: flex;
   border:1px solid black;
   margin-left: 0%;
+}
+
+.nav-title {
+  color: #726a57;
+  margin-bottom: 2.5%;
+  padding-top: 1%;
+  width: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid white; */
 }
 
 .navbar {
@@ -38,15 +57,196 @@
   /* border: 1px solid white; */
 }
 
-.nav-link-rules {
+.nav-link-home {
   color: #726a57;
   text-decoration: none;
+  -webkit-text-stroke: 0.5px black;
+}
+
+.nav-link-links {
+  color: #726a57;
+  text-decoration: none;
+  -webkit-text-stroke: 0.5px black;
 }
 .nav-link-announcements {
   color: #726a57;
   text-decoration: none;
+  -webkit-text-stroke: 0.5px black;
 }
 .nav-link-builds {
   color: #726a57;
   text-decoration: none;
+  -webkit-text-stroke: 0.5px black;
+}
+
+
+
+/* HOME PAGE */
+
+
+
+.home-title {
+  color: #91876d;
+  font-size: 5vh;
+  padding-top: 2%;
+  margin: 0%;
+  /* border: 1px solid white; */
+}
+
+.home-ip {
+  color: #726a57;
+  margin: 1%
+  /* border: 1px solid white; */
+}
+
+.home-video {
+  display: flex;
+  margin: 3%;
+  justify-content: center;
+}
+
+.home-faq {
+  margin: 0% 10% 5% 10%;
+  /* border: 1px solid white; */
+}
+
+.home-faq-1 {
+  margin: 3%;
+  /* border: 1px solid red; */
+}
+
+.home-faq-what {
+  color: #91876d;
+}
+
+.home-faq-what-a {
+  color: #726a57;
+}
+
+.home-faq-2 {
+  margin: 3%;
+  /* border: 1px solid white; */
+}
+
+.home-faq-how {
+  color: #91876d;
+}
+
+.home-faq-how-a {
+  color: #726a57;
+}
+
+.home-wiki-link {
+  color: #91876d;
+  text-decoration: none;
+  -webkit-text-stroke: 0.25px black
+}
+
+.home-faq-3 {
+  margin: 3%;
+  /* border: 1px solid blue; */
+}
+
+.home-faq-ip {
+  color: #91876d;
+}
+
+.home-faq-ip-a {
+  color: #726a57;
+}
+
+.home-soon {
+  /* border: 1px solid white */
+}
+
+.home-see {
+  color: #91876d;
+  font-size: 4vh;
+  -webkit-text-stroke: 0.5px black;
+}
+
+.copyright {
+  padding-top: 5%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.copy-top {
+  color: #726a57;
+  -webkit-text-stroke: 0.5px black;
+  margin-bottom: -1.8%;
+}
+
+.copy-bottom {
+  color: #726a57;
+  -webkit-text-stroke: 0.5px black;
+}
+
+
+
+/* ANNOUNCEMENTS*/
+
+
+
+.announcement-title {
+  color: #91876d;
+  font-size: 7vh;
+  padding-top: 2%;
+  -webkit-text-stroke: 0.5px black;
+}
+
+.announcement-desc {
+  color: #91876d;
+  font-size: 3.75vh;
+  width: 42%;
+  margin-bottom: -4%;
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid white; */
+}
+
+.announcement-staff {
+  color: #91876d;
+  font-size: 5vh;
+  width: 45%;
+  margin-left: 50%;
+  align-self: flex-end;
+  /* border: 1px solid white; */
+}
+
+.announcement-layout-left {
+  width: 45%;
+  padding-top: 3%;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  /* border: 1px solid white; */
+}
+
+.discord-wiget {
+  padding: 2%;
+}
+
+.staff-phoenix {
+  color: #91876d;
+  line-height: 1vh;
+  width: 45%;
+  margin-left: 50%;
+  margin-top: -50%;
+  display: flex;
+  flex-flow: column wrap;
+  /* border: 1px solid white; */
+}
+
+
+/* LINKS AND RULES */
+
+
+
+.lar-title {
+  color: #91876d;
+  font-size: 4vh;
+  -webkit-text-stroke: 0.5px black;
 }

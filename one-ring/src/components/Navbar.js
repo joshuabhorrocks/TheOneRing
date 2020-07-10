@@ -5,13 +5,13 @@ import logo from "../media/TORlogo.jpg";
 const NavBar = () => {
     return (
         <header className="nav-header">
-            <NavLink to="/">
                 <img className="nav-logo" src={logo} alt="The One Ring Logo"></img>
-            </NavLink>
+                <h1 className="nav-title">The One Ring</h1>
                 <nav className="navbar">
                     <div className="nav-links">
-                        <NavLink to="/rules" className="nav-link-rules">Rules</NavLink>
+                        <NavLink to="/" className="nav-link-home">Ring Portal</NavLink>
                         <NavLink to="/announcements" className="nav-link-announcements">Announcements</NavLink>
+                        <NavLink to="/links" className="nav-link-links">Links and Rules</NavLink>
                         <a href="http://torlotr.com/players.php" className="nav-link-builds">Your Builds</a>
                     </div>
                 </nav>
