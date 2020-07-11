@@ -10,7 +10,11 @@
   /* border: 1px solid white; */
 }
 
+
+
 /* NAVIGATION BAR */
+
+
 
 .nav-header {
   color: white;
@@ -68,11 +72,19 @@
   text-decoration: none;
   -webkit-text-stroke: 0.5px black;
 }
+
 .nav-link-announcements {
   color: #726a57;
   text-decoration: none;
   -webkit-text-stroke: 0.5px black;
 }
+
+.nav-link-staff {
+  color: #726a57;
+  text-decoration: none;
+  -webkit-text-stroke: 0.5px black;
+}
+
 .nav-link-builds {
   color: #726a57;
   text-decoration: none;
@@ -195,50 +207,249 @@
   font-size: 7vh;
   padding-top: 2%;
   -webkit-text-stroke: 0.5px black;
+  
 }
 
-.announcement-desc {
-  color: #91876d;
-  font-size: 3.75vh;
-  width: 42%;
-  margin-bottom: -4%;
-  display: flex;
-  justify-content: center;
-  /* border: 1px solid white; */
-}
-
-.announcement-staff {
-  color: #91876d;
-  font-size: 5vh;
-  width: 45%;
-  margin-left: 50%;
-  align-self: flex-end;
-  /* border: 1px solid white; */
-}
-
-.announcement-layout-left {
-  width: 45%;
-  padding-top: 3%;
+.announcement-layout {
+  margin-left: 23%;
+  width: 55%;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
   /* border: 1px solid white; */
 }
 
+.announcement-desc {
+  color: #91876d;
+  font-size: 4vh;
+}
+
 .discord-wiget {
   padding: 2%;
 }
 
-.staff-phoenix {
+
+
+/* STAFF */
+
+
+
+.staff-title {
   color: #91876d;
-  line-height: 1vh;
-  width: 45%;
-  margin-left: 50%;
-  margin-top: -50%;
-  display: flex;
-  flex-flow: column wrap;
+  padding-top: 2%;
+  font-size: 7vh;
   /* border: 1px solid white; */
 }
+
+.staff-layout-top {
+  width: 100%;
+  /* border: 1px solid white; */
+}
+
+.staff-phoenix {
+  color: #91876d;
+  line-height: 3vh;
+  /* border: 1px solid white; */
+}
+
+.phoenix-info {
+  width: 30%;
+  padding: 2%;
+  margin: 16% 0% 0% 17%;
+  /* border: 1px solid white; */
+}
+
+.phoenix-bio {
+  padding-top: 4%;
+  font-size: 3vh;
+}
+
+.phoenix-img {
+  margin-left: 28%;
+  margin-top: -27%;
+  padding-bottom: 4%;
+}
+
+.staff-layout-bottom {
+  color: #91876d;
+}
+
+.staff-layout-row-1 {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 3%;
+  /* border: 1px solid white; */
+}
+
+.vanderm-info {
+  line-height: 2vh;
+}
+
+.vanderm-bio {
+  padding-top: 4%;
+  font-size: 3vh;
+}
+
+.vanderm-img {
+
+}
+
+.fin-info {
+  line-height: 2vh;
+}
+
+.fin-bio {
+  padding-top: 4%;
+  font-size: 3vh;
+}
+
+.fin-img {
+
+}
+
+
+.staff-layout-row-2 {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 3%;
+  /* border: 1px solid white; */
+}
+
+.stalone-info {
+  line-height: 2vh;
+}
+
+.stalone-bio {
+  padding-top: 4%;
+  font-size: 3vh;
+}
+
+.stalone-img {
+
+}
+
+.athasin-info {
+  line-height: 2vh;
+}
+
+.athasin-bio {
+  padding-top: 4%;
+  font-size: 3vh;
+}
+
+.athasin-img {
+
+}
+
+
+.staff-layout-row-3 {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 3%;
+  /* border: 1px solid white; */
+}
+
+.mass-info {
+  line-height: 2vh;
+}
+
+.mass-bio {
+  padding-top: 4%;
+  font-size: 3vh;
+}
+
+.mass-img {
+
+}
+
+.acentis-info {
+  line-height: 2vh;
+}
+
+.acentis-bio {
+  padding-top: 4%;
+  font-size: 3vh;
+}
+
+.acentis-img {
+
+}
+
+
+.staff-layout-row-4 {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 3%;
+  /* border: 1px solid white; */
+}
+
+.moryan-info {
+  line-height: 2vh;
+}
+
+.moryan-bio {
+  padding-top: 4%;
+  font-size: 3vh;
+}
+
+.moryan-img {
+
+}
+
+
+.staff-layout-row-5 {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 3%;
+  /* border: 1px solid white; */
+}
+
+.bella-info {
+  line-height: 2vh;
+}
+
+.bella-bio {
+  padding-top: 4%;
+  font-size: 3vh;
+}
+
+.bella-img {
+
+}
+
+.barzul-info {
+  line-height: 2vh;
+}
+.barzul-bio {
+  padding-top: 4%;
+  font-size: 3vh;
+}
+
+.barzul-img {
+
+}
+
+
+.staff-layout-row-6 {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 3%;
+  /* border: 1px solid white; */
+}
+
+.boto-info {
+  line-height: 2vh;
+}
+
+.boto-bio {
+  padding-top: 4%;
+  font-size: 3vh;
+}
+
+.boto-img {
+
+}
+
 
 
 /* LINKS AND RULES */
