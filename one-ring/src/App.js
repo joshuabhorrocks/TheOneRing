@@ -4,8 +4,9 @@ import './App.css';
 
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
-import LinksAndRules from "./components/LinksAndRules";
 import Announcements from "./components/Announcements";
+import Staff from "./components/Staff";
+import LinksAndRules from "./components/LinksAndRules";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Switch>
           <Route path="/" component={Home} exact />
           <Route path="/announcements" component={Announcements} exact />
+          <Route path="/staff" component={Staff} exact />
           <Route path="/links" component={LinksAndRules} exact />
         </Switch>
       </div>
