@@ -1,5 +1,8 @@
 import React from "react";
-import phoenixPic from "../media/phone.jpg";
+import placeholderPic from "../media/phone.jpg";
+import stalonePic from "../media/StaffPics/stalonePic.png"
+import massPic from "../media/StaffPics/massPic.png"
+import barzulPic from "../media/StaffPics/barzulPic.png"
 
 const Staff = () => {
     return (
@@ -13,7 +16,7 @@ const Staff = () => {
                     <h2 className="phoenix-position">Position: Owner</h2>
                     <h2 className="phoenix-bio">"O before E when spelling to me!"</h2>
                 </div>
-                <img className="phoenix-img" src={phoenixPic} alt="Phoenix, The Owner of TOR"></img>
+                <img className="phoenix-img" src={placeholderPic} alt="Phoenix, The Owner of TOR"></img>
             </div>
         </div>
         <div className="staff-layout-bottom">
@@ -25,7 +28,7 @@ const Staff = () => {
                     <h2 className="vanderm-position">Position: Admin</h2>
                     <h2 className="vanderm-bio">"O before E when spelling to me!"</h2>
                 </div>
-                    <img className="vanderm-img" src={phoenixPic} alt="Vanderm, an Admin on TOR"></img>
+                    <img className="vanderm-img" src={placeholderPic} alt="Vanderm, an Admin on TOR"></img>
                 </div>
                 <div className="staff-fin">
                 <div className="fin-info">
@@ -34,7 +37,7 @@ const Staff = () => {
                     <h2 className="fin-position">Position: Admin</h2>
                     <h2 className="fin-bio">"O before E when spelling to me!"</h2>
                 </div>
-                    <img className="fin-img" src={phoenixPic} alt="FinTheGrand, an Admin on TOR"></img>
+                    <img className="fin-img" src={placeholderPic} alt="FinTheGrand, an Admin on TOR"></img>
                 </div>
             </div>
             <div className="staff-layout-row-2">
@@ -43,9 +46,9 @@ const Staff = () => {
                     <h1 className="stalone-nick">Nickname: StaloneRanger</h1>
                     <h2 className="stalone-ign">IGN: StaloneRanger</h2>
                     <h2 className="stalone-position">Position: Moderator</h2>
-                    <h2 className="stalone-bio">"O before E when spelling to me!"</h2>
+                    <h2 className="stalone-bio">"women love me, fish fear me"</h2>
                 </div>
-                    <img className="stalone-img" src={phoenixPic} alt="StaloneRanger, a Moderator on TOR"></img>
+                    <img className="stalone-img" src={stalonePic} alt="StaloneRanger, a Moderator on TOR"></img>
                 </div>
                 <div className="staff-athasin">
                 <div className="athasin-info">
@@ -54,7 +57,7 @@ const Staff = () => {
                     <h2 className="athasin-position">Position: Moderator</h2>
                     <h2 className="athasin-bio">"O before E when spelling to me!"</h2>
                 </div>
-                    <img className="athasin-img" src={phoenixPic} alt="Athasin, a Moderator on TOR"></img>
+                    <img className="athasin-img" src={placeholderPic} alt="Athasin, a Moderator on TOR"></img>
                 </div>
             </div>
             <div className="staff-layout-row-3">
@@ -63,9 +66,9 @@ const Staff = () => {
                     <h1 className="mass-nick">Nickname: ~Mass</h1>
                     <h2 className="mass-ign">IGN: Masstheman</h2>
                     <h2 className="mass-position">Position: Moderator</h2>
-                    <h2 className="mass-bio">"O before E when spelling to me!"</h2>
+                    <h2 className="mass-bio">"Who am I, Gamling?"</h2>
                 </div>
-                    <img className="mass-img" src={phoenixPic} alt="Masstheman, a Moderator on TOR"></img>
+                    <img className="mass-img" src={massPic} alt="Masstheman, a Moderator on TOR"></img>
                 </div>
                 <div className="staff-acentis">
                 <div className="acentis-info">
@@ -74,7 +77,7 @@ const Staff = () => {
                     <h2 className="acentis-position">Position: Moderator</h2>
                     <h2 className="acentis-bio">"O before E when spelling to me!"</h2>
                 </div>
-                    <img className="acentis-img" src={phoenixPic} alt="Acentis, a Moderator on TOR"></img>
+                    <img className="acentis-img" src={placeholderPic} alt="Acentis, a Moderator on TOR"></img>
                 </div>
             </div>
             <div className="staff-layout-row-4">
@@ -85,7 +88,7 @@ const Staff = () => {
                     <h2 className="moryan-position">Position: Moderator</h2>
                     <h2 className="moryan-bio">"O before E when spelling to me!"</h2>
                 </div>
-                    <img className="moryan-img" src={phoenixPic} alt="Moryan1105, a Moderator on TOR"></img>
+                    <img className="moryan-img" src={placeholderPic} alt="Moryan1105, a Moderator on TOR"></img>
                 </div>
             </div>
             <div className="staff-layout-row-5">
@@ -96,7 +99,7 @@ const Staff = () => {
                     <h2 className="bella-position">Position: Helper</h2>
                     <h2 className="bella-bio">"O before E when spelling to me!"</h2>
                 </div>
-                    <img className="bella-img" src={phoenixPic} alt="BellaNoche2014, a Helper on TOR"></img>
+                    <img className="bella-img" src={placeholderPic} alt="BellaNoche2014, a Helper on TOR"></img>
                 </div>
                 <div className="staff-barzul">
                 <div className="barzul-info">
@@ -105,7 +108,7 @@ const Staff = () => {
                     <h2 className="barzul-position">Position: Helper</h2>
                     <h2 className="barzul-bio">"O before E when spelling to me!"</h2>
                 </div>
-                    <img className="barzul-img" src={phoenixPic} alt="OldTomBarzuldil, a Helper on TOR"></img>
+                    <img className="barzul-img" src={barzulPic} alt="OldTomBarzuldil, a Helper on TOR"></img>
                 </div>
             </div>
             <div className="staff-layout-row-6">
@@ -116,7 +119,7 @@ const Staff = () => {
                     <h2 className="boto-position">Position: Helper</h2>
                     <h2 className="boto-bio">"O before E when spelling to me!"</h2>
                 </div>
-                    <img className="boto-img" src={phoenixPic} alt="Boto, a Helper on TOR"></img>
+                    <img className="boto-img" src={placeholderPic} alt="Boto, a Helper on TOR"></img>
                 </div>
             </div>
         </div>

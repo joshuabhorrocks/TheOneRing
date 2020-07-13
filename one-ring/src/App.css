@@ -18,7 +18,8 @@
 
 .nav-header {
   color: white;
-  background-color: #0f0907;
+  background: rgb(23,14,9);
+  background: linear-gradient(90deg, rgba(23,14,9,1) 15%, rgba(18,10,8,1) 42%, rgba(23,15,13,1) 84%);
   position: fixed;
   top: 0;
   width: 100%;
@@ -149,8 +150,7 @@
 }
 
 .home-wiki-link {
-  color: #91876d;
-  text-decoration: none;
+  color: #857d69;
   -webkit-text-stroke: 0.25px black
 }
 
@@ -460,4 +460,78 @@
   color: #91876d;
   font-size: 4vh;
   -webkit-text-stroke: 0.5px black;
+  padding-top: 1%;
+}
+
+.lar-desc {
+  color: #91876d;
+  font-size: 3vh;
+  -webkit-text-stroke: 0.5px black;
+}
+
+
+
+.lar-layout-right {
+  color: #91876d;
+  font-size: 2.75vh;
+  width: 45%;
+  margin-left: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* border: 1px solid white; */
+}
+
+.link-click {
+  color: #857d69;
+  text-decoration: underline #91876d;
+  -webkit-text-stroke: 0.25px black
+}
+
+.link-address {
+  text-decoration: none;
+}
+
+.rules-link {
+padding-bottom: 3%;
+}
+
+.wiki-link {
+  padding-bottom: 3%;
+}
+
+.youtube-link {
+  padding-bottom: 3%;
+}
+
+
+.lar-layout-left {
+  color: #91876d;
+  font-size: 2.75vh;
+  width: 44%;
+  margin-left: 50%;
+  margin-top: -34%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* border: 1px solid white; */
+}
+
+.forum-link {
+  padding-bottom: 3%;
+}
+
+.discord-link {
+  padding-bottom: 3%;
+}
+
+.donate-link {
+  padding-bottom: 3%;
+}
+
+
+.builds-info {
+  color: #91876d;
+  font-size: 2.5vh;
+  margin-top: 10%;
 }
