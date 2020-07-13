@@ -1,7 +1,5 @@
 import React from "react";
 import DiscordWidget from "./DiscordWidget";
-import phoenixPic from "../media/phone.jpg";
-
 
 const Announcements = () => {
     return (
@@ -18,20 +16,3 @@ const Announcements = () => {
 }
 
 export default Announcements
-
-{/* <div className="staff-">
-<h1 className="-nick">Nick: ~Phoenix</h1>
-<h2 className="-ign">IGN: Phoenix___</h2>
-<h2 className="-position">Position: Owner</h2>
-<img className="-img" src={phoenixPic} alt=""></img>
-</div> */}
-
-// Owner: Phoenix___
-// Admin: Vanderm135
-// Admin: FinTheGrand
-// Moderator: StaloneRanger
-// Moderator: Athasin
-// Moderator: Masstheman
-// Helper: Moyran1105
-// Helper: BellaNoche2014
-// Helper: Acentis
