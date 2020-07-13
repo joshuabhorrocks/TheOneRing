@@ -33,6 +33,9 @@ const LinksAndRules = () => {
                     <h3 className="link-address">Click <a className="link-click" href="https://tormc.enjin.com/donate">here</a> to donate to the server!</h3>
                 </div>
             </div>
+            <div className="builds-info">
+                <h2 classname="link-title">Looking to save your builds for the next reset? Click "Your Builds" on the navigation bar.</h2>
+            </div>
         </div>
     )
 }

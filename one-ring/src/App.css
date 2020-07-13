@@ -469,6 +469,8 @@
   -webkit-text-stroke: 0.5px black;
 }
 
+
+
 .lar-layout-right {
   color: #91876d;
   font-size: 2.75vh;
@@ -503,7 +505,6 @@ padding-bottom: 3%;
 }
 
 
-
 .lar-layout-left {
   color: #91876d;
   font-size: 2.75vh;
@@ -526,4 +527,11 @@ padding-bottom: 3%;
 
 .donate-link {
   padding-bottom: 3%;
+}
+
+
+.builds-info {
+  color: #91876d;
+  font-size: 2.5vh;
+  margin-top: 10%;
 }
