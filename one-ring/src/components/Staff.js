@@ -6,7 +6,7 @@ import barzulPic from "../media/StaffPics/barzulPic.png"
 
 const Staff = () => {
     return (
-        <div>
+        <div className="staff-bgi">
             <h1 className="staff-title">Introducing our Amazing Staff!</h1>
         <div className="staff-layout-top">
             <div className="staff-phoenix">
@@ -26,7 +26,7 @@ const Staff = () => {
                     <h1 className="vanderm-nick">Nickname: ~Vand</h1>
                     <h2 className="vanderm-ign">IGN: Vanderm135</h2>
                     <h2 className="vanderm-position">Position: Admin</h2>
-                    <h2 className="vanderm-bio">"O before E when spelling to me!"</h2>
+                    <h2 className="vanderm-bio">"chess?"</h2>
                 </div>
                     <img className="vanderm-img" src={placeholderPic} alt="Vanderm, an Admin on TOR"></img>
                 </div>

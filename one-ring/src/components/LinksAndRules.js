@@ -2,7 +2,7 @@ import React from "react";
 
 const LinksAndRules = () => {
     return (
-        <div>
+        <div className="lar-bgi">
             <h1 className="lar-title">Links and Rules</h1>
             <h2 className="lar-desc">Your one-stop destination for all links pertaining to TOR!</h2>
             <div className="lar-layout-right">

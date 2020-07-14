@@ -3,7 +3,7 @@ import DiscordWidget from "./DiscordWidget";
 
 const Announcements = () => {
     return (
-        <div>
+        <div className="announcement-bgi">
             <h1 className="announcement-title">Latest Announcements</h1>
             <h2 className="announcement-desc">Want to stay up-to-date on all things TOR? We have an active Discord!</h2>
             <div className="announcement-layout">

@@ -2,7 +2,7 @@
 
 .App {
   margin-top: 12.5vh;
-  min-height: 150vh;
+  min-height: 100vh;
   text-align: center;
   line-height: 5vh;
   background-color: black;
@@ -17,6 +17,7 @@
 
 
 .nav-header {
+  z-index: 99;
   color: white;
   background: rgb(23,14,9);
   background: linear-gradient(90deg, rgba(23,14,9,1) 15%, rgba(18,10,8,1) 42%, rgba(23,15,13,1) 84%);
@@ -97,6 +98,10 @@
 /* HOME PAGE */
 
 
+
+.home-bgi {
+
+}
 
 .home-title {
   color: #91876d;
@@ -202,12 +207,18 @@
 
 
 
+.announcement-bgi {
+  background-image: url(./media/Builds/TheBlackGate.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
 .announcement-title {
   color: #91876d;
   font-size: 7vh;
   padding-top: 2%;
   -webkit-text-stroke: 0.5px black;
-  
 }
 
 .announcement-layout {
@@ -234,6 +245,13 @@
 
 
 
+.staff-bgi {
+  background-image: url(./media/Builds/AlternatingBlocks.png);
+  background-repeat: repeat;
+  width: 100%;
+  height: 702vh;
+}
+
 .staff-title {
   color: #91876d;
   padding-top: 2%;
@@ -256,6 +274,9 @@
   width: 30%;
   padding: 2%;
   margin: 16% 0% 0% 17%;
+  background-color: black;
+  border-radius: 25px;
+  opacity: 0.95;
   /* border: 1px solid white; */
 }
 
@@ -265,7 +286,7 @@
 }
 
 .phoenix-img {
-  margin-left: 28%;
+  margin-left: 33%;
   margin-top: -27%;
   padding-bottom: 4%;
 }
@@ -282,7 +303,12 @@
 }
 
 .vanderm-info {
+  padding: 0.5%;
+  margin: 1%;
   line-height: 2vh;
+  background-color: black;
+  border-radius: 25px;
+  opacity: 0.95;
 }
 
 .vanderm-bio {
@@ -295,7 +321,12 @@
 }
 
 .fin-info {
+  padding: 0.5%;
+  margin: 1%;
   line-height: 2vh;
+  background-color: black;
+  border-radius: 25px;
+  opacity: 0.95;
 }
 
 .fin-bio {
@@ -316,7 +347,12 @@
 }
 
 .stalone-info {
+  padding: 0.5%;
+  margin: 1%;
   line-height: 2vh;
+  background-color: black;
+  border-radius: 25px;
+  opacity: 0.95;
 }
 
 .stalone-bio {
@@ -329,7 +365,12 @@
 }
 
 .athasin-info {
+  padding: 0.5%;
+  margin: 1%;
   line-height: 2vh;
+  background-color: black;
+  border-radius: 25px;
+  opacity: 0.95;
 }
 
 .athasin-bio {
@@ -350,7 +391,12 @@
 }
 
 .mass-info {
+  padding: 0.5%;
+  margin: 1%;
   line-height: 2vh;
+  background-color: black;
+  border-radius: 25px;
+  opacity: 0.95;
 }
 
 .mass-bio {
@@ -363,7 +409,12 @@
 }
 
 .acentis-info {
+  padding: 0.5%;
+  margin: 1%;
   line-height: 2vh;
+  background-color: black;
+  border-radius: 25px;
+  opacity: 0.95;
 }
 
 .acentis-bio {
@@ -384,7 +435,12 @@
 }
 
 .moryan-info {
+  padding: 0.5%;
+  margin: 1%;
   line-height: 2vh;
+  background-color: black;
+  border-radius: 25px;
+  opacity: 0.95;
 }
 
 .moryan-bio {
@@ -405,7 +461,12 @@
 }
 
 .bella-info {
+  padding: 0.5%;
+  margin: 1%;
   line-height: 2vh;
+  background-color: black;
+  border-radius: 25px;
+  opacity: 0.95;
 }
 
 .bella-bio {
@@ -418,7 +479,12 @@
 }
 
 .barzul-info {
+  padding: 0.5%;
+  margin: 1%;
   line-height: 2vh;
+  background-color: black;
+  border-radius: 25px;
+  opacity: 0.95;
 }
 .barzul-bio {
   padding-top: 4%;
@@ -438,7 +504,12 @@
 }
 
 .boto-info {
+  padding: 0.5%;
+  margin: 1%;
   line-height: 2vh;
+  background-color: black;
+  border-radius: 25px;
+  opacity: 0.95;
 }
 
 .boto-bio {
@@ -455,6 +526,13 @@
 /* LINKS AND RULES */
 
 
+
+.lar-bgi {
+  background-image: url(./media/Builds/BaradDur.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 110vh;
+}
 
 .lar-title {
   color: #91876d;
@@ -533,5 +611,5 @@ padding-bottom: 3%;
 .builds-info {
   color: #91876d;
   font-size: 2.5vh;
-  margin-top: 10%;
+  margin-top: 5%;
 }
