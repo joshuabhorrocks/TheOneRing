@@ -1,8 +1,11 @@
 import React from "react";
+
 import placeholderPic from "../media/phone.jpg";
-import stalonePic from "../media/StaffPics/stalonePic.png"
-import massPic from "../media/StaffPics/massPic.png"
-import barzulPic from "../media/StaffPics/barzulPic.png"
+import stalonePic from "../media/StaffPics/stalonePic.png";
+import massPic from "../media/StaffPics/massPic.png";
+import barzulPic from "../media/StaffPics/barzulPic.png";
+import bellaPic from "../media/StaffPics/bellaPic.png";
+import moryanPic from "../media/StaffPics/moryanPic.png";
 
 const Staff = () => {
     return (
@@ -86,9 +89,9 @@ const Staff = () => {
                     <h1 className="moryan-nick">Nickname: ~Moryan</h1>
                     <h2 className="moryan-ign">IGN: Moyran1105</h2>
                     <h2 className="moryan-position">Position: Moderator</h2>
-                    <h2 className="moryan-bio">"O before E when spelling to me!"</h2>
+                    <h2 className="moryan-bio">"Please donate your stone to me."</h2>
                 </div>
-                    <img className="moryan-img" src={placeholderPic} alt="Moryan1105, a Moderator on TOR"></img>
+                    <img className="moryan-img" src={moryanPic} alt="Moryan1105, a Moderator on TOR"></img>
                 </div>
             </div>
             <div className="staff-layout-row-5">
@@ -97,9 +100,10 @@ const Staff = () => {
                     <h1 className="bella-nick">Nickname: ~Aurora</h1>
                     <h2 className="bella-ign">IGN: BellaNoche2014</h2>
                     <h2 className="bella-position">Position: Helper</h2>
-                    <h2 className="bella-bio">"O before E when spelling to me!"</h2>
+                    <h2 className="bella-bio">"If you made a mistake or crashed the server again...</h2>
+                    <h2 className="bella-bio2">always remember to just blame Fin."</h2>
                 </div>
-                    <img className="bella-img" src={placeholderPic} alt="BellaNoche2014, a Helper on TOR"></img>
+                    <img className="bella-img" src={bellaPic} alt="BellaNoche2014, a Helper on TOR"></img>
                 </div>
                 <div className="staff-barzul">
                 <div className="barzul-info">
