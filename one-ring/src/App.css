@@ -156,6 +156,7 @@
 
 .home-wiki-link {
   color: #857d69;
+  text-decoration: underline #726a57;
   -webkit-text-stroke: 0.25px black
 }
 
@@ -349,10 +350,13 @@
 .stalone-info {
   padding: 0.5%;
   margin: 1%;
+  margin-top: 1%;
+  margin-left: 17%;
   line-height: 2vh;
   background-color: black;
   border-radius: 25px;
   opacity: 0.95;
+  width: 100%;
 }
 
 .stalone-bio {
@@ -361,25 +365,30 @@
 }
 
 .stalone-img {
-
+  margin-left: 17%;
 }
 
 .athasin-info {
   padding: 0.5%;
   margin: 1%;
+  margin-left: 20%;
   line-height: 2vh;
   background-color: black;
   border-radius: 25px;
   opacity: 0.95;
+  width: 70%;
 }
 
 .athasin-bio {
-  padding-top: 4%;
-  font-size: 3vh;
+  padding-top: 0%;
+  margin-left: 15%;
+  font-size: 2.5vh;
+  line-height: 2.5vh;
+  width: 70%;
 }
 
 .athasin-img {
-
+margin-left:10%;
 }
 
 
@@ -486,18 +495,21 @@
 .barzul-info {
   padding: 0.5%;
   margin: 1%;
+  margin-left: 30%;
   line-height: 2vh;
   background-color: black;
   border-radius: 25px;
   opacity: 0.95;
+  width: 60%;
 }
 .barzul-bio {
   padding-top: 4%;
   font-size: 3vh;
+  line-height: 3vh;
 }
 
 .barzul-img {
-
+  margin-left: 19%;
 }
 
 

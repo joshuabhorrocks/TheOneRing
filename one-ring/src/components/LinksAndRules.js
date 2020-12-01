@@ -15,8 +15,8 @@ const LinksAndRules = () => {
                     <h3 className="link-address">Click <a className="link-click" href="http://lotrminecraftmod.fandom.com/">here</a> to access the wiki!</h3>
                 </div>
                 <div className="youtube-link">
-                    <h2 classname="link-title">The Server's Youtube Channel:</h2>
-                    <h3 className="link-address">Click <a className="link-click" href="https://www.youtube.com/channel/UCBlwyZZMgE5nZh3qjAhUkiA">here</a> to checkout the Youtube Channel!</h3>
+                    <h2 classname="link-title">The Server's YouTube Channel:</h2>
+                    <h3 className="link-address">Click <a className="link-click" href="https://www.youtube.com/channel/UCBlwyZZMgE5nZh3qjAhUkiA">here</a> to checkout the YouTube Channel!</h3>
                 </div>
             </div>
             <div className="lar-layout-left">

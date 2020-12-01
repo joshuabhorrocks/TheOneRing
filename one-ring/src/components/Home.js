@@ -14,7 +14,7 @@ const Home = () => {
             <div className="home-faq">
                 <div className="home-faq-1">
                     <h1 className="home-faq-what">What is The One Ring Server?</h1>
-                    <h2 className="home-faq-what-a">The One Ring is a Minecraft Server that runs The Lord of the Rings Minecraft Mod. First opened in April of 2014, The One Ring has continued to thrive for years under several great owners, assisted by diligent staff. The One Ring family boasts seasoned veterans and new players alike, whom all contribute to dot the landscapes of Middle-Earth with impressive fortresses, friendly (and not-so-friendly) trading hubs, and so much more!</h2>
+                    <h2 className="home-faq-what-a">The One Ring is a Minecraft Server that runs The Lord of the Rings Minecraft Mod. First opened in April of 2014, The One Ring has continued to thrive for years under several great owners, assisted by diligent staff. The One Ring family boasts seasoned veterans and new players alike, all of whom contribute to dot the landscapes of Middle-Earth with impressive fortresses, friendly (and not-so-friendly) trading hubs, and so much more!</h2>
                 </div>
                 <div className="home-faq-2">
                     <h1 className="home-faq-how">How Can I Join?</h1>
