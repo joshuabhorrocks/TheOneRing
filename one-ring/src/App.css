@@ -34,6 +34,8 @@
   display: flex;
   border:1px solid black;
   margin-left: 0%;
+  width: 120px;
+  height: 120px;
 }
 
 .nav-title {
@@ -59,7 +61,7 @@
   font-size: 2.5vh;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-around;
   /* border: 1px solid white; */
 }
 
@@ -91,6 +93,70 @@
   color: #726a57;
   text-decoration: none;
   -webkit-text-stroke: 0.5px black;
+}
+
+@media (max-width: 1250px) {
+  .nav-links {
+    /* border: 1px solid white; */
+    width: 73%;
+  }
+}
+
+@media (max-width: 1150px) {
+  .nav-links {
+    width: 80%;
+  }
+}
+
+@media (max-width: 1050px) {
+  .nav-links {
+    width: 85%;
+  }
+}
+
+
+@media (max-width: 1000px) {
+  .nav-links {
+    width: 90%;
+  }
+}
+
+@media (max-width: 900px) {
+  .nav-header {
+    height: 18vh;
+  }
+  .nav-logo {
+    margin: 1%;
+    margin-left: 3%;
+  }
+  .nav-title {
+    width: 25%;
+    height: 20%;
+    margin-top: 15%;
+    margin-left: -17%;
+  }
+  .nav-links {
+    width: 100%;
+  }
+}
+
+@media (max-width: 850px) {
+  .nav-logo {
+    margin-left: 2%; 
+  }
+  .nav-title {
+    height: 30%;
+    width: 27%;
+  }
+}
+
+@media (max-width: 800px) {
+  .nav-links {
+    border: 1px solid white;
+  }
+  .nav-title {
+    width: 30%;
+  }
 }
 
 
@@ -472,10 +538,12 @@ margin-left:10%;
 .bella-info {
   padding: 0.5%;
   margin: 1%;
+  margin-left: 43%;
   line-height: 2vh;
   background-color: black;
   border-radius: 25px;
   opacity: 0.95;
+  width: 100%;
 }
 
 .bella-bio {
@@ -489,7 +557,7 @@ margin-left:10%;
 }
 
 .bella-img {
-
+  margin-left: 43%;
 }
 
 .barzul-info {
