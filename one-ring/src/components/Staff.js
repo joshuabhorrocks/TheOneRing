@@ -10,6 +10,7 @@ import moryanPic from "../media/StaffPics/moryanPic.png";
 import athasinPic from "../media/StaffPics/athasinPic.png";
 import botoPic from "../media/StaffPics/botoPic.png";
 import vandPic from "../media/StaffPics/vandPic.png";
+import wofflePic from "../media/StaffPics/wofflePic.png";
 
 const Staff = () => {
     return (
@@ -82,9 +83,9 @@ const Staff = () => {
                     <h1 className="acentis-nick">Nickname: ~Woffle</h1>
                     <h2 className="acentis-ign">IGN: Woffle1888</h2>
                     <h2 className="acentis-position">Position: Moderator</h2>
-                    <h2 className="acentis-bio">"O before E when spelling to me!"</h2>
+                    <h2 className="acentis-bio">"There is no mercy."</h2>
                 </div>
-                    <img className="acentis-img" src={placeholderPic} alt="Acentis, a Moderator on TOR"></img>
+                    <img className="acentis-img" src={wofflePic} alt="Acentis, a Moderator on TOR"></img>
                 </div>
             </div>
             <div className="staff-layout-row-4">
